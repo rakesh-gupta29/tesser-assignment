@@ -44,12 +44,16 @@ export const sidebarOptions = [
 export const sidebarBottomOptions = [
   {
     label: "Invite people",
-    iconRight: <PinIcon height={16} width={16} />,
+    iconRight: (
+      <PinIcon style={{ color: "var(--text-100)" }} height={16} width={16} />
+    ),
     iconLeft: <PlusIcon height={16} width={16} />,
   },
   {
     label: "Help & Support",
-    iconRight: <PinIcon height={16} width={16} />,
+    iconRight: (
+      <PinIcon style={{ color: "var(--text-100)" }} height={16} width={16} />
+    ),
     iconLeft: <BookIcon height={16} width={16} />,
   },
 ];
