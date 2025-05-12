@@ -1,0 +1,92 @@
+.tableContainer {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--surface-200);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  font-size: var(--text-sm);
+  line-height: 20px;
+  color: var(--text-200);
+}
+
+.table th {
+  font-weight: 500;
+  color: var(--text-200);
+  background-color: var(--surface-secondary);
+}
+
+.table tr {
+  border-bottom: 1px solid var(--surface-200);
+}
+
+.table tr:last-child {
+  border-bottom: none;
+}
+
+/* Add width for the last column */
+.table th:last-child,
+.table td:last-child {
+  width: 120px;
+  text-align: right;
+}
+
+.link {
+  color: var(--primary-400);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: var(--primary-brand);
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.deleteButton:hover {
+  background-color: var(--primary-50);
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.header,
+.actionHeader {
+  color: var(--text-brand);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.actionHeader {
+  margin-left: 10px;
+}
+
+.link {
+  color: var(--primary-brand);
+}

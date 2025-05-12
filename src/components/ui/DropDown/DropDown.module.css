@@ -1,0 +1,103 @@
+.button {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  border: 1px solid var(--surface-200);
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.button:focus {
+  border-color: var(--primary-200);
+}
+
+.button.error {
+  border-color: var(--danger);
+}
+
+.button:hover {
+  background-color: var(--surface-50);
+}
+
+.button button {
+  height: 100%;
+}
+
+.placeholderText {
+  color: var(--text-50) !important;
+}
+
+.buttonContent {
+  flex: 1;
+  text-align: left;
+}
+
+.items {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  background-color: var(--surface-50);
+  border: 1px solid var(--surface-200);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  padding: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 40px;
+  color: var(--text-200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuItem:hover,
+.menuItem:focus {
+  background-color: var(--surface-100);
+}
+.dropdownContainer {
+  display: grid;
+  position: relative;
+}
+.menuItem[data-focus] {
+  background-color: var(--surface-100);
+}
+.error {
+  color: var(--danger);
+  font-size: var(--font-xs);
+  line-height: 16px;
+  display: inline-block;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.label {
+  color: var(--text-normal);
+  font-weight: 500;
+  font-size: var(--font-xs);
+  line-height: 16px;
+}
+
+.errorWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.errorBorder {
+  border-color: var(--danger);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

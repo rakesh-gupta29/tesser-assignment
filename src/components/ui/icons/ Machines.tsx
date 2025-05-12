@@ -1,0 +1,58 @@
+import React from "react";
+
+export default function MachinesIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="18"
+      height="17"
+      viewBox="0 0 18 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M2.64248 5.00017C2.61674 6.89381 2.48944 9.80733 5.19146 12.5923C5.88438 13.3065 6.33402 13.9283 8.61918 15.2643"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M2.5239 4.24118L1.00009 6.18623"
+        stroke="currentColor"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+      />
+      <path
+        d="M2.52395 4.24236L4.04776 6.18741"
+        stroke="currentColor"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+      />
+      <path
+        d="M10.2148 15.8608L13.2609 15.532"
+        stroke="currentColor"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+      />
+      <path
+        d="M10.2125 15.8606L10.9003 13.4268"
+        stroke="currentColor"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+      />
+      <path
+        d="M3.0965 2.19997C3.95371 1.81744 6.16633 0.999969 9.54093 0.999969C12.5082 0.999969 14.0508 1.23818 16.2664 2.19997"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M16.9967 4.24118C17.0255 6.34329 16.9384 9.81116 13.9937 13.0002C13.3731 13.6332 13.4493 13.8519 10.8165 15.3998"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M7.58137 7.37263C7.27599 7.11156 6.96589 6.67999 6.51833 7.05253C6.21073 7.30864 6.15281 7.40265 6.59377 7.82564L8.66206 9.59377C8.96745 9.8667 9.46717 9.8667 9.77256 9.60563L13.229 6.65085C13.5344 6.38978 13.677 6.1727 13.3717 5.91164C13.0524 5.65057 12.6971 5.89508 12.3917 6.15614L9.2286 8.77777L7.58137 7.37263Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}

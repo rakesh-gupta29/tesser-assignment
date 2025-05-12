@@ -1,0 +1,9 @@
+.homepageContainer {
+  display: flex;
+}
+
+.contentWrapper {
+  flex: 1;
+  min-height: 100lvh;
+  background-color: var(--surface-50);
+}

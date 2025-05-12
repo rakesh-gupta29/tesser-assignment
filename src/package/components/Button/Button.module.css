@@ -1,0 +1,104 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Primary variant */
+.primary {
+  background-color: var(--primary-200);
+  color: var(--surface-0);
+}
+
+.primary:hover:not(:disabled) {
+  background-color: var(--primary-300);
+}
+
+.primary:active:not(:disabled) {
+  background-color: var(--primary-300);
+}
+
+/* Button sizes */
+.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.medium {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.large {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Icon styles */
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.iconOnly {
+  padding: 0.5rem;
+}
+
+.iconOnly.small {
+  padding: 0.375rem;
+}
+
+.iconOnly.large {
+  padding: 0.75rem;
+}
+
+/* Outline variant modifiers */
+.outline.primary {
+  background-color: transparent;
+  color: var(--primary-400);
+}
+
+.outline.primary:hover:not(:disabled) {
+  background-color: var(--primary-50);
+}
+
+.outline.secondary {
+  background-color: transparent;
+  color: var(--secondary-200);
+}
+
+.outline.secondary:hover:not(:disabled) {
+  background-color: var(--secondary-50);
+}
+
+.outline.danger {
+  background-color: transparent;
+  color: var(--danger-200);
+}
+
+.outline.danger:hover:not(:disabled) {
+  background-color: var(--danger-50);
+}
+
+.ghost {
+  background-color: transparent;
+  color: var(--text-50);
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.ghost:hover:not(:disabled) {
+  background-color: var(--surface-100);
+}

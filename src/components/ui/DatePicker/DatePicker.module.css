@@ -1,0 +1,73 @@
+.datePicker {
+  position: relative;
+  gap: 8px;
+  height: 36px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.datePickerWrapper {
+  position: relative;
+}
+
+.datePickerElem {
+  outline: none;
+  border: none;
+  position: relative;
+  font-size: var(--font-sm);
+  color: var(--text-200);
+  height: 100%;
+  flex: 1;
+}
+.calendarIconWrapper {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  display: grid;
+  height: 36px;
+  width: 36px;
+  place-items: center;
+}
+
+.datePickerWrapper {
+  width: 100%;
+}
+
+.datePickerWrapper div {
+  width: 100%;
+}
+
+.datePickerWrapper input {
+  width: 100% !important;
+  height: 36px;
+  border: 1px solid var(--surface-200);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.wrapper {
+  display: grid;
+  gap: 8px;
+  flex: 1;
+}
+
+.label {
+  color: var(--text-normal);
+  font-weight: 500;
+  font-size: var(--font-xs);
+  line-height: 16px;
+}
+
+.error {
+  color: var(--danger);
+  font-size: var(--font-xs);
+  line-height: 12px;
+  display: inline-block;
+  margin-top: 4px;
+  font-weight: 500;
+}
+.errorWrapper {
+  display: grid;
+  gap: 4px;
+}

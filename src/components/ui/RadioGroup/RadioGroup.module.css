@@ -1,0 +1,48 @@
+.radioBtn {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid var(--surface-400);
+  display: grid;
+  background-color: var(--surface-50);
+  place-content: center;
+}
+
+.radioBtnChecked {
+  border: 1px solid var(--primary-200);
+  background-color: var(--secondary-0);
+}
+.radioInnerCircleInactive {
+  height: 6px;
+  width: 6px;
+  background-color: var(--surface-400);
+  border-radius: 50%;
+}
+
+.radioInnerCircleActive {
+  height: 6px;
+  width: 6px;
+  background-color: var(--primary-200);
+  border-radius: 50%;
+}
+
+.field {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.label {
+  font-size: var(--font-sm);
+  cursor: pointer;
+  color: var(--text-200);
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 16px;
+}

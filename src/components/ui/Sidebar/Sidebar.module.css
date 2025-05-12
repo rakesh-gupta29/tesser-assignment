@@ -1,0 +1,119 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-125);
+  color: var(--surface-800);
+  padding: 6px;
+  transition: all 150ms var(--easing-standard);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-sm);
+  line-height: 16px;
+  font-weight: normal;
+  min-height: 2rem;
+  width: 100%;
+}
+.sidebarOption span {
+  flex: 1;
+  text-align: left;
+}
+.sidebarOption:hover {
+  background-color: var(--surface-100);
+}
+
+.optionActive {
+  color: var(--primary-200);
+  cursor: not-allowed;
+}
+.optionActive:hover {
+  background-color: transparent;
+}
+.optionsWrapper {
+  flex: 1;
+}
+.sidebarWrapper,
+.sidebarDropdownContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+}
+.BottomOptionsWrapper {
+  padding-bottom: 18px;
+  display: grid;
+  gap: var(--spacing-100);
+}
+
+.sidebarContainer {
+  flex: 0 1 300px;
+  padding: 20px 16px;
+  height: 100lvh;
+  display: grid;
+  position: sticky;
+  top: 0;
+  border-right: 1px solid var(--surface-100);
+}
+
+.BrandWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-50);
+  justify-content: space-between;
+  margin-bottom: var(--spacing-150);
+}
+.AppsWrapper {
+  display: grid;
+}
+
+.arrowIconWrapper {
+  transition: all 150ms var(--easing-standard);
+}
+
+.arrowIconWrapper.rotate90 {
+  transform: rotate(90deg);
+}
+
+.sidebarDropdown {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-50);
+  cursor: pointer;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 12px;
+  gap: 8px;
+  height: 32px;
+  border: 1px solid #dbe0eb;
+  border-radius: var(--radius-sm);
+  width: 100%;
+  font-weight: 550;
+  color: var(--text-200);
+}
+
+.sidebarDropdown:hover {
+  background-color: var(--surface-50);
+}
+
+.sidebarDropdown span {
+  color: var(--text-200);
+  font-size: var(--font-xs);
+}
+
+.sidebarDropdownContent {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 150ms var(--easing-standard);
+}
+
+.sidebarDropdownContent.dropDownOpen {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: var(--spacing-100);
+}
+
+.sidebarDropdownContent.dropDownClosed {
+  max-height: 0;
+  opacity: 0;
+}

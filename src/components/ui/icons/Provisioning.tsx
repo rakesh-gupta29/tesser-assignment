@@ -1,0 +1,48 @@
+export default function ProvisioningIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <ellipse
+        cx={6.99992}
+        cy={3.19997}
+        rx={5.4}
+        ry={2.4}
+        stroke="currentColor"
+      />
+      <path
+        d="M1.59985 6.99995C1.59985 7.87077 3.10251 8.61159 5.19985 8.88615"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M1.59985 3.19997V10.4148C1.59985 11.4533 3.10251 12.3368 5.19985 12.6642M12.3999 3.19997V5.79997"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M11.3999 15.2C13.4986 15.2 15.1999 13.4987 15.1999 11.4C15.1999 9.30129 13.4986 7.59998 11.3999 7.59998C9.30123 7.59998 7.59991 9.30129 7.59991 11.4C7.59991 13.4987 9.30123 15.2 11.3999 15.2Z"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11.3999 9.64685V13.1545"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.64606 11.4H13.1537"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

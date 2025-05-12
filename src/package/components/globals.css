@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /* Font Families */
+  --font-primary: "Inter", sans-serif;
+
+  /* Surface Colors */
+  --surface-0: #ffffff;
+  --surface-50: #f8f9fc;
+  --surface-100: #eef1f6;
+  --surface-200: #dbe0eb;
+  --surface-300: #dde0e7;
+  --surface-400: #aebad2;
+  --surface-500: #8e959f;
+  --surface-700: #343f56;
+  --surface-secondary: #eef1f6;
+
+  /* Primary Colors */
+  --primary-50: #f0f2ff;
+  --primary-100: #c3caff;
+  --primary-200: #0942b3;
+  --primary-300: #023292;
+  --primary-400: #192839;
+  --primary-brand: #0942b3;
+  --primary-brand-hover: #002e8a;
+
+  --secondary-0: #ebf2ff;
+
+  /* Text Colors */
+  --text-50: #8b96ae;
+  --text-100: #525f7a;
+  --text-200: #1a2031;
+  --text-normal: #1a2031;
+  --text-brand: #0942b3;
+
+  --danger: #ff4d4f;
+
+  /* Light Colors */
+
+  /* Animation Delays */
+  --delay-2xquick: 80ms;
+  --delay-xquick: 160ms;
+  --delay-moderate: 280ms;
+  --delay-gentle: 480ms;
+  --delay-xgentle: 960ms;
+  --delay-long: 2000ms;
+  --delay-xlong: 3000ms;
+  --delay-2xlong: 5000ms;
+
+  /* Animation Durations */
+  --duration-2xquick: 80ms;
+  --duration-xquick: 160ms;
+  --duration-quick: 200ms;
+  --duration-moderate: 280ms;
+  --duration-xmoderate: 360ms;
+  --duration-gentle: 480ms;
+  --duration-xgentle: 640ms;
+  --duration-2xgentle: 960ms;
+
+  /* Animation Easings */
+  --easing-linear: cubic-bezier(0, 0, 0, 0);
+  --easing-entrance: cubic-bezier(0, 0, 0.2, 1);
+  --easing-exit: cubic-bezier(0.17, 0, 1, 1);
+  --easing-standard: cubic-bezier(0.3, 0, 0.2, 1);
+  --easing-emphasized: cubic-bezier(0.5, 0, 0, 1);
+  --easing-overshoot: cubic-bezier(0.5, 0, 0.3, 1.5);
+  --easing-shake: cubic-bezier(1, 0.5, 0, 0.5);
+
+  /* Breakpoints */
+  --breakpoint-base: 0px;
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-large: 1024px;
+  --breakpoint-xlarge: 1200px;
+
+  /* Opacity Values */
+  --opacity-0: 0;
+  --opacity-50: 0.06;
+  --opacity-100: 0.09;
+  --opacity-200: 0.12;
+  --opacity-300: 0.18;
+  --opacity-400: 0.24;
+  --opacity-500: 0.32;
+  --opacity-600: 0.48;
+  --opacity-700: 0.56;
+  --opacity-800: 0.64;
+  --opacity-900: 0.72;
+  --opacity-1000: 0.8;
+  --opacity-1100: 0.88;
+  --opacity-1200: 1;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-125: 0.625rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-md: 1.125rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 2rem;
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+}

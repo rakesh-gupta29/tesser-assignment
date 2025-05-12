@@ -1,0 +1,53 @@
+.formTitle {
+  font-size: var(--font-base);
+  color: var(--text-200);
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.formSubtitle {
+  font-size: var(--font-sm);
+  color: var(--text-100);
+  line-height: 16px;
+}
+
+.formWrapper {
+  display: grid;
+  gap: 24px;
+  background-color: white;
+  padding: 1rem 28px 1rem 1rem;
+  border-radius: var(--radius-md);
+}
+.formComponentsWrapper {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.formHeader,
+.maintenanceWindow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.maintenanceWindow {
+  padding-top: 8px;
+}
+
+.formRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.additionalOptionsWrapper {
+  margin-top: 8px;
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 1024px) {
+  .formRow {
+    display: grid;
+    gap: 24px;
+  }
+}

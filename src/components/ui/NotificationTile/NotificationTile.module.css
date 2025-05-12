@@ -1,0 +1,31 @@
+.wrapper {
+  min-height: 44px;
+  background: var(--secondary-0);
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  font-size: var(--font-sm);
+  font-weight: 450;
+  line-height: 20px;
+  color: var(--text-200);
+  flex: 1;
+}
+.closeButton {
+  color: var(--primary-400);
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  background: var(--primary-100);
+}

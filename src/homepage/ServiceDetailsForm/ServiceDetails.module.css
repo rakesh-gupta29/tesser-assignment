@@ -1,0 +1,58 @@
+.formTitle {
+  font-size: var(--font-base);
+  color: var(--text-200);
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.formSubtitle {
+  font-size: var(--font-sm);
+  color: var(--text-100);
+  line-height: 16px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: white;
+  padding: 1rem 28px 1rem 1rem;
+  border-radius: var(--radius-md);
+}
+.formComponentsWrapper {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.engineConfiguration {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.engineConfigurationTitle {
+  font-size: var(--font-sm);
+  color: var(--text-200);
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.engineConfigurationDescription {
+  font-size: var(--font-sm);
+  color: var(--text-100);
+  line-height: 16px;
+}
+.engineConfigurationDropdowns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .engineConfigurationDropdowns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
