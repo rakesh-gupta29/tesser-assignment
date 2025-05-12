@@ -144,7 +144,7 @@ const Form = forwardRef<FormRef>((_, ref) => {
 
           <Checkbox
             id="containerDatabase"
-            label="Create as a Container Database"
+            label="Enable auto minor version update"
             checked={withMinorVersion}
             onChange={() => setValue("withMinorVersion", !withMinorVersion)}
           />

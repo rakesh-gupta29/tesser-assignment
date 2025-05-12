@@ -18,6 +18,7 @@
   width: 6px;
   background-color: var(--surface-400);
   border-radius: 50%;
+  display: none;
 }
 
 .radioInnerCircleActive {
